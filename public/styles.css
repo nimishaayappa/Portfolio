@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #1e90ff;
+    border-bottom: 1px solid #1e90ff;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    padding-left: 15px;
+    position: relative;
+}
+
+ul li:before {
+    content: "\2022";
+    color: #1e90ff;
+    position: absolute;
+    left: 0;
+}
+
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info span {
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    background-color: #1e90ff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
