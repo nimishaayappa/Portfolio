@@ -16,8 +16,41 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+.navbar {
+    background-color: #1e90ff;
+    overflow: hidden;   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #074481;
+    color: white;
+}
+.navbar .left {
+    flex: 1;
+    margin-left: 10%;
+}
+
+.navbar .right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
 
 h1 {
     color: #1e90ff;
